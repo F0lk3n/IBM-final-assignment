@@ -77,7 +77,7 @@ app.layout = html.Div(children=[
                                 html.H1('US Domestic Airline Flights Performance',
                                         style={'text-align-last':'centre','color':'#503D36','font-size':24}
                                        ),
-                                ])
+                                
                                 # REVIEW2: Dropdown creation
                                 # Create an outer division 
 html.Div([
@@ -135,7 +135,7 @@ html.Div([
                                           html.Div([ ], id='plot5')
                                          ], 
                                           style={'display': 'flex'})
-                                
+                                ])
 
 # Callback function definition
 # TASK4: Add 5 ouput components
